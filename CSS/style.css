@@ -49,11 +49,8 @@ body {
 
 .conta-usuario_perfil_icone img {
   margin: 0 16px;
-}
-
-.conta-usuario_perfil img {
-  width: 100%;
-  max-width: 64px;
+  width: 32px;
+  margin-left: 8px;
 }
 
 .conta-usuario_perfil p {
@@ -348,6 +345,7 @@ body {
 .conta-usuario-footer-item {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .conta-usuario-footer-item li {
@@ -362,7 +360,6 @@ body {
 .conta-usuario-footer-item li a img {
   width: 100%;
   max-width: 32px;
-  margin-top: 32px;
 }
 
 .conta-usuario-footer-item li a p {
@@ -372,7 +369,7 @@ body {
 
 .conta-usuario-footer-item .conta-usuario-footer-item-pagar a img {
   max-width: 80px;
-  transform: translateY(-64px);
+  transform: translateY(-32px);
 }
 
 .conta-usuario-footer-item .conta-usuario-footer-item-pagar a P {
