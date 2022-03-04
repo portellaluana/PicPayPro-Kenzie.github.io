@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Picpay Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <figure class="cabecalho_picpaypro-logo">
+                <img src="assets/img/logo-picpro.png" alt="picpay logo">
+            </figure>
+            <figure class="cabecalho_logokenzie">
+                <img src="assets/img/logo-kenzie.png" alt="kenzie logo">
+            </figure>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="conta-usuario">
+            <div class="container">
+                <div class="conta-usuario_perfil">
+                    <div class="conta-usuario_perfil_nome">
+                        <img src="assets/img/usuario.png" alt="foto-usuario">
+                        <p>Olá,<strong>@MariaPorcina</strong></p>
+                    </div>
+                    <div class="conta-usuario_perfil_icone">
+                        <img src="/assets/img/presente.png" alt="icone-presente">
+                        <img src="/assets/img/chat.png" alt="icone-chat">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="conta-usuario-saldo">
+            <div class="container">
+                <div class="conta-usuario-saldo-valor">
+                    <div>
+                        <p>Saldo Picpay</p>
+                        <div class="conta-usuario-saldo-valor-valor">
+                            <p>R$ 0,00</p>
+                            <img src="/assets/img/visualizar.png" alt="icone-visualizar">
+                        </div>
+                    </div>
+                    <button>Extrato</button>
+                </div>
+                <ul class="conta-usuario-acoes-transacoes">
+                    <li class="conta-usuario-acoes-transacoes-item-transacao conta-usuario-acoes-transacoes-item-transacao-qrcode" id="1">
+                        <figure>
+                            <img src="assets/img/qrcode.png" alt="QR Code">
+                        </figure>
+                        <p> QR Code</p>
+                    </li>
+                    <li class="conta-usuario-acoes-transacoes-item-transacao conta-usuario-acoes-transacoes-item-transacao-pix" id="2">
+                        <figure>
+                            <img src="assets/img/pix.png" alt="Pix icon">
+                        </figure>
+                        <p> Pix</p>
+                    </li>
+                    <li class="conta-usuario-acoes-transacoes-item-transacao conta-usuario-acoes-transacoes-item-transacao-boleto" id="3">
+                        <figure>
+                            <img src="assets/img/codigo.png" alt="Pagar boleto">
+                        </figure>
+                        <p>Pagar Boleto</p>
+                    </li>
+                    <li class="conta-usuario-acoes-transacoes-item-transacao conta-usuario-acoes-transacoes-item-transacao-cobrar" id="4">
+                        <figure>
+                            <img src="assets/img/cobrar-icon.png" alt="Cobrar">
+                        </figure>
+                        <p>Cobrar</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="conta-usuario_pagamento">
+            <div class="container">
+                <div class="conta-usuario_pagamento-selecao mostrar">
+                    <p> Selecione a forma de pagamento</p>
+                    <img src="assets/img/banner.png" alt="banner Picpay">
+                </div>
+
+                <div data-id="1" class="conta-usuario_pagamento-qrcode">
+                    <img src="/assets/img/qrcode-imagem.png" alt="qrcode">
+                    <p>@mariaporcina</p>
+                    <button>Cobre um amigo</button>
+                    <a href=""> Compartilhar meu código</a>
+                </div>
+                <div data-id="2" class="conta-usuario_pagamento-pix">
+                    <img src="/assets/img/pix-logo.png" alt="codigo-pix">
+                    <div class="conta-usuario_pagamento-pix-1">
+                        <img src="/assets/img/pix1.png" alt="Imagem-pix1">
+                        <p>Envie por COP/CNPJ, telefone, email ou chave aleatória</p>
+                    </div>
+                    <div class="conta-usuario_pagamento-pix-2">
+                        <img src="/assets/img/pix2.png" alt="Imagem-pix2">
+                        <p>Insira um código Pix copia e cola para enviar um pagamento</p>
+                    </div>
+                </div>
+                <div data-id="3" class="conta-usuario_pagamento-boleto">
+                    <img src="/assets/img/boleto.png" alt="imagem-boleto">
+                    <h2>Pagar com código de barra</h2>
+                    <p>Você pode parcelar em até 12xno cartão ou usar seu saldo em carteira para pagar à vista</p>
+                    <input type="text" placeholder="Insira o código de barra">
+                </div>
+                <div data-id="4" class="conta-usuario_pagamento-cobrar">
+                    <img src="/assets/img/cobrar.png" alt="imagem-cobrar">
+                    <h2>Cobrar</h2>
+                    <p>Divida a conta com os amigos de forma fácil</p>
+                    <div class="conta-usuario_pagamento-cobrar-cobranca">
+                        <img src="/assets/img/picpay-icon.png" alt="icone-picpay">
+                        <p> <strong>Amigos no picPay</strong><br>
+                            Divida e acompanhe um gasto com pessoas aqui</p>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <footer class="conta-usuario-footer">
+            <div class="container">
+                <ul class="conta-usuario-footer-item">
+                    <li class="conta-usuario-footer-item"><a href="#"><img src="assets/img/inicio.png" alt="Início">
+                            <p>Início</p>
+                        </a>
+                    </li>
+                    <li class="conta-usuario-footer-item"><a href="#"><img src="assets/img/carteira-icon.png" alt="Carteira">
+                            <p>Carteira</p>
+                        </a>
+                    </li>
+                    <li class="conta-usuario-footer-item-pagar"><a href="#"><img src="assets/img/pagar.png" alt="Pagar">
+                            <p>Pagar</p>
+                        </a>
+                    </li>
+                    <li class="conta-usuario-footer-item"><a href="#"><img src="assets/img/notificacao.png" alt="Noticacoes">
+                            <p>Noticações</p>
+                        </a>
+                    </li>
+                    <li class="conta-usuario-footer-item"><a href="#"><img src="assets/img/bolsa.png" alt="Store">
+                            <p>Store</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+
+</html>

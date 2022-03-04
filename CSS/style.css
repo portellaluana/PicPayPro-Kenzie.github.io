@@ -1,0 +1,442 @@
+body {
+  background-color: #228664;
+  font-family: "Poppins", sans-serif;
+}
+
+.cabecalho {
+  border-bottom: 1px solid white;
+  padding: 16px 0;
+}
+
+.cabecalho .container {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho figure img {
+  width: 100%;
+  max-width: 140px;
+}
+
+.cabecalho_picpaypro-logo {
+  border-right: 1px solid white;
+  margin-right: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 96px;
+  align-items: center;
+}
+
+.conta-usuario_perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conta-usuario_perfil_nome {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.conta-usuario_perfil_icone {
+  display: flex;
+  align-items: center;
+}
+
+.conta-usuario_perfil_icone img {
+  margin: 0 16px;
+}
+
+.conta-usuario_perfil img {
+  width: 100%;
+  max-width: 64px;
+}
+
+.conta-usuario_perfil p {
+  margin-left: 8px;
+  font-size: 16px;
+  color: white;
+}
+
+.conta-usuario_perfil strong {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.conta-usuario_perfil p strong {
+  font-size: 16px;
+  display: block;
+}
+
+.conta-usuario-saldo-valor {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  justify-items: center;
+  padding: 32px 0;
+  line-height: 20px;
+}
+
+.conta-usuario-saldo-valor p {
+  color: white;
+}
+
+.conta-usuario-saldo-valor-valor {
+  display: flex;
+  align-items: center;
+}
+
+.conta-usuario-saldo-valor-valor p {
+  font-weight: 600;
+}
+
+.conta-usuario-saldo-valor-valor img {
+  display: block;
+  height: 20px;
+  width: 32px;
+  margin-left: 8px;
+}
+
+.conta-usuario-saldo p {
+  font-size: 16px;
+}
+
+.conta-usuario-saldo p strong {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.conta-usuario-saldo button {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.conta-usuario-acoes-transacoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao {
+  font-size: 16px;
+  background-color: #1f6f54;
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  padding: 32px 0 0 16px;
+  cursor: pointer;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao img {
+  height: 48px;
+  width: 48px;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 80px;
+}
+
+.conta-usuario_pagamento {
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  border-bottom: 8px solid #d2d2d2;
+  padding: 32px 0;
+  min-height: 500px;
+}
+
+.conta-usuario_pagamento .container div {
+  display: none;
+}
+
+.conta-usuario_pagamento .container div.mostrar {
+  display: block;
+}
+
+.conta-usuario_pagamento-selecao p {
+  font-size: 16px;
+  border-radius: 8px;
+  height: 16px;
+  padding: 32px 64px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: white;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
+  max-width: 800px;
+}
+
+.conta-usuario_pagamento-selecao img {
+  margin-top: 32px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.conta-usuario_pagamento-qrcode {
+  text-align: center;
+  padding: 32px;
+}
+
+.conta-usuario_pagamento-qrcode img {
+  max-width: 150px;
+  padding: 32px;
+}
+
+.conta-usuario_pagamento-qrcode p {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.conta-usuario_pagamento-qrcode button {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  width: 600px;
+  background-color: #4a8864;
+  padding: 16px 32px;
+  margin: 32px 0;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.conta-usuario_pagamento-qrcode a {
+  display: block;
+  color: black;
+  font-weight: 600;
+}
+
+.conta-usuario_pagamento-pix img {
+  width: 200px;
+  max-width: 300px;
+}
+
+.conta-usuario_pagamento-pix-1 {
+  margin-top: 24px;
+  border: #d2d2d2 solid 1px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  padding: 16px 32px;
+}
+
+.conta-usuario_pagamento-pix-1 img {
+  width: 80px;
+}
+
+.conta-usuario_pagamento-pix-1 p {
+  font-size: 16px;
+  color: black;
+  margin-left: 16px;
+}
+
+.conta-usuario_pagamento-pix-2 {
+  margin-top: 24px;
+  border: #d2d2d2 solid 1px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  padding: 16px 32px;
+}
+
+.conta-usuario_pagamento-pix-2 img {
+  width: 80px;
+}
+
+.conta-usuario_pagamento-pix-2 p {
+  font-size: 16px;
+  color: black;
+  margin-left: 16px;
+}
+
+.conta-usuario_pagamento-boleto img {
+  width: 100px;
+  max-width: 80px;
+}
+
+.conta-usuario_pagamento-boleto h2 {
+  font-weight: 600;
+  color: black;
+}
+
+.conta-usuario_pagamento-boleto p {
+  max-width: 400px;
+  margin: 16px 0;
+}
+
+.conta-usuario_pagamento-boleto input {
+  background-color: #f4f4f4;
+  padding: 8px;
+  border-radius: 8px;
+  border: #d2d2d2 solid 1px;
+  font-size: 14px;
+  color: black;
+  margin-top: 24px;
+  border: #d2d2d2 solid 1px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 32px;
+  box-sizing: border-box;
+}
+
+.conta-usuario_pagamento-cobrar {
+  width: 100%;
+  max-width: 400px;
+}
+
+.conta-usuario_pagamento-cobrar img {
+  width: 100%;
+  max-width: 80px;
+}
+.conta-usuario_pagamento-cobrar h2 {
+  font-weight: 600;
+  color: black;
+}
+
+.conta-usuario_pagamento-cobrar p {
+  margin: 16px 0;
+}
+
+.conta-usuario_pagamento-cobrar-cobranca {
+  margin-top: 24px;
+  border: #d2d2d2 solid 1px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  padding: 16px 32px;
+}
+
+.conta-usuario_pagamento-cobrar-cobranca img {
+  width: 100%;
+  max-width: 80px;
+}
+
+.conta-usuario_pagamento-cobrar-cobranca p {
+  font-size: 16px;
+  color: black;
+  padding: 16px 32px 16px 16px;
+}
+
+.conta-usuario_pagamento-cobrar-cobranca p strong {
+  font-weight: 600;
+}
+
+.conta-usuario-footer {
+  background-color: white;
+}
+
+.conta-usuario-footer-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conta-usuario-footer-item li {
+  text-align: center;
+}
+
+.conta-usuario-footer-item li a {
+  text-decoration: none;
+  color: black;
+}
+
+.conta-usuario-footer-item li a img {
+  width: 100%;
+  max-width: 32px;
+  margin-top: 32px;
+}
+
+.conta-usuario-footer-item li a p {
+  font-size: 16px;
+  margin: 16px;
+}
+
+.conta-usuario-footer-item .conta-usuario-footer-item-pagar a img {
+  max-width: 80px;
+  transform: translateY(-64px);
+}
+
+.conta-usuario-footer-item .conta-usuario-footer-item-pagar a P {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao {
+  color: white;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao:hover {
+  background-color: white;
+  color: #228664;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-qrcode figure {
+  background-image: url(../assets/img/qrcode.png);
+  height: 40px;
+  width: 40px;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-qrcode:hover figure {
+  background-image: url(../assets/img/qrcode-verde.png);
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-pix figure {
+  background-image: url(../assets/img/pix.png);
+  height: 40px;
+  width: 40px;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-pix:hover figure {
+  background-image: url(../assets/img/pix-verde.png);
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-boleto figure {
+  background-image: url(../assets/img/codigo.png);
+  height: 32px;
+  width: 40px;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-boleto:hover figure {
+  background-image: url(../assets/img/boleto-verde.png);
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-cobrar figure {
+  background-image: url(../assets/img/cobrar-icon.png);
+  height: 32px;
+  width: 40px;
+}
+
+.conta-usuario-acoes-transacoes-item-transacao-cobrar:hover figure {
+  background-image: url(../assets/img/cobrar-verde.png);
+}
+
+.conta-usuario-acoes-transacoes-item-transacao figure img {
+  opacity: 0;
+  width: 100%;
+  height: 20px;
+}
