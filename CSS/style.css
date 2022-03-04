@@ -224,44 +224,25 @@ body {
   max-width: 300px;
 }
 
-.conta-usuario_pagamento-pix-1 {
+.conta-usuario_pagamento-pix figure {
   margin-top: 24px;
   border: #d2d2d2 solid 1px;
   border-radius: 16px;
   display: flex;
   align-items: center;
-  width: 560px;
+  width: 360px;
   padding: 16px 32px;
 }
 
-.conta-usuario_pagamento-pix-1 img {
+.conta-usuario_pagamento-pix figure img {
   width: 80px;
 }
 
-.conta-usuario_pagamento-pix-1 p {
+.conta-usuario_pagamento-pix figure p {
   font-size: 16px;
   color: black;
   margin-left: 16px;
-}
-
-.conta-usuario_pagamento-pix-2 {
-  margin-top: 24px;
-  border: #d2d2d2 solid 1px;
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  width: 560px;
-  padding: 16px 32px;
-}
-
-.conta-usuario_pagamento-pix-2 img {
-  width: 80px;
-}
-
-.conta-usuario_pagamento-pix-2 p {
-  font-size: 16px;
-  color: black;
-  margin-left: 16px;
+  width: 240px;
 }
 
 .conta-usuario_pagamento-boleto img {
@@ -313,28 +294,29 @@ body {
   margin: 16px 0;
 }
 
-.conta-usuario_pagamento-cobrar-cobranca {
+.conta-usuario_pagamento-cobrar figure {
   margin-top: 24px;
   border: #d2d2d2 solid 1px;
   border-radius: 16px;
   display: flex;
   align-items: center;
-  width: 560px;
+  width: 360px;
   padding: 16px 32px;
 }
 
-.conta-usuario_pagamento-cobrar-cobranca img {
+.conta-usuario_pagamento-cobrar figure img {
   width: 100%;
   max-width: 80px;
 }
 
-.conta-usuario_pagamento-cobrar-cobranca p {
+.conta-usuario_pagamento-cobrar figure p {
   font-size: 16px;
   color: black;
   padding: 16px 32px 16px 16px;
+  width: 240px;
 }
 
-.conta-usuario_pagamento-cobrar-cobranca p strong {
+.conta-usuario_pagamento-cobrar figure p strong {
   font-weight: 600;
 }
 
@@ -368,7 +350,7 @@ body {
 }
 
 .conta-usuario-footer-item .conta-usuario-footer-item-pagar a img {
-  max-width: 80px;
+  max-width: 88px;
   transform: translateY(-32px);
 }
 
